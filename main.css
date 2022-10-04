@@ -1,32 +1,37 @@
-
 .section {
-    padding: 16px 32px;
+  padding: 16px 32px;
 }
 
-.section h1, .section h2 {
-    color: #E79B25;
-    font-size: 32px;
+.section h1,
+.section h2 {
+  color: #e79b25;
+  font-size: 32px;
 }
 
 #inicio {
-    background-color: #D0F5FF;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 50vh;
+  background-color: #d0f5ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 50vh;
 
-    position: relative;
+  position: relative;
 }
 
 #inicio p {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    left: 30%;
+  bottom: 8px;
+  right: 8px;
+  left: 30%;
 
-    background-color: rgba(0,0,0, .5);
-    color: #fff;
-    padding: 16px 32px;
-    border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 18px;
+}
+
+@media (min-width: 768px) {
+  #inicio p {
+    position: absolute;
+  }
 }

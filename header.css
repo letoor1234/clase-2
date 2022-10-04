@@ -9,6 +9,7 @@ header {
 header nav ul {
     display: flex;
     list-style: none;
+    justify-content: center;
 }
 
 header nav ul li {
@@ -21,8 +22,19 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: #fff;
+    text-transform: capitalize;
 }
 
 header nav ul li:hover {
     background-color: #476a85;
+}
+
+.nosotros-text {
+    display: none !important;
+}
+
+@media (min-width: 768px) {
+    .nosotros-text {
+        display: inline;
+    }
 }
